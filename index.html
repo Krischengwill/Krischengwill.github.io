@@ -236,26 +236,26 @@
             <!-- mixitup container -->
             <div class="row" id="mix-wrapper">
               <div id="effect-5">
-                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target desktop ios" data-order="1">
                   <figure>
                     <img src="images/portfolio/port1.jpg" alt="">
                     <figcaption>
                       <a href="#" data-toggle="modal" data-target="#myModal1">
-                        <h3>Java Simple Api</h3>
+                        <h3>Tertis Game</h3>
                         <hr>
-                        <p>Using Springboot and Jdbc Driver</p>
+                        <p>Using React and Redux</p>
                       </a>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="2">
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target android ios" data-order="2">
                   <figure>
                     <img src="images/portfolio/port2.jpg" alt="">
                     <figcaption>
                       <a href="#" data-toggle="modal" data-target="#myModal2">
-                        <h3>Live Chat Room</h3>
+                        <h3>Snake Game</h3>
                         <hr>
-                        <p>Use WebSocket and Node.js</p>
+                        <p>Use JavaScript</p>
                       </a>
                     </figcaption>
                   </figure>
@@ -272,26 +272,26 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-6 mix-target ios" data-order="4">
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="4">
                   <figure target="_blank">
                     <img src="images/portfolio/port4.jpg" alt="">
                     <figcaption>
                       <a href="#" data-toggle="modal" data-target="#myModal4">
-                        <h3>Tertis Game</h3>
+                        <h3>Java Simple Api</h3>
                         <hr>
-                        <p>Use ES6</p>
+                        <p>Use Java Springboot and JDBC Driver</p>
                       </a>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-6 mix-target ios" data-order="5">
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="5">
                   <figure>
                     <img src="images/portfolio/port5.jpg" alt="">
                     <figcaption>
                       <a href="#" class="porto" data-toggle="modal" data-target="#myModal5">
-                        <h3>Snake Game</h3>
+                        <h3>LiveChat Room</h3>
                         <hr>
-                        <p>Use javascript</p>
+                        <p>Use WebSocket and Node.js</p>
                       </a>
 
                     </figcaption>
@@ -615,34 +615,33 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="window.location.reload()"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Mojo Web App redesign concept</h4>
         </div>
         <div class="modal-body">
 
-          <p>1.JavaSimpleApi Enable database CRUD</p>
-          <a href ="https://github.com/Krischengwill/JavaSimpleApi" target="_blank" style="color:black">URL:https://github.com/Krischengwill/JavaSimpleApi</a>
-          <p>Description: Simple JavaApi use Springboot framework which allow user to create/get a user account and put/delete their personal information. </p>
-          <img src="images/portfolio/port1.jpg" class="img-responsive" alt="">
+          <p>1.Tertis Game</p>
+          <a href ="https://github.com/Krischengwill/ReduxTertis/tree/master" target="_blank" style="color:black">URL:https://github.com/Krischengwill/ReduxTertis/tree/master</a>
+          <iframe src="https://polar-caverns-34392.herokuapp.com/" class="iframe" id="iframepage" alt="" frameborder:0 scrolling="auto"  style="border:none" onload="changeFrameHeight()"></iframe>
         </div>
 
       </div>
     </div>
   </div>
 
+
   <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="window.location.reload()"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Mojo Web App redesign concept</h4>
         </div>
         <div class="modal-body">
 
-          <p>2.LiveChat Room</p>
-          <a href ="https://github.com/Krischengwill/Chat-Room" target="_blank" style="color:black">URL:https://github.com/Krischengwill/Chat-Room</a>
-          <p>Description: Use WebSocket and Express Framework.Enable Multiple users chat in selected chat-room and send their real location while chatting with others. </p>
-          <img src="images/portfolio/port2.jpg" class="img-responsive" alt="">
+          <p>2.Snake Game</p>
+          <a href ="https://krischengwill.github.io/Game/" target="_blank" style="color:black">URL:https://krischengwill.github.io/Game/</a>
+          <iframe src="https://krischengwill.github.io/Game/" class="iframe" id="iframepage" alt="" frameborder:0 scrolling="auto"  style="border:none" onload="changeFrameHeight()"></iframe>
         </div>
 
       </div>
@@ -668,18 +667,21 @@
     </div>
   </div>
 
+
+
   <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="window.location.reload()"><span aria-hidden="true">&times;</span></button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Mojo Web App redesign concept</h4>
         </div>
         <div class="modal-body">
 
-          <p>4.Tertis Game</p>
-          <a href ="https://github.com/Krischengwill/ReduxTertis/tree/master" target="_blank" style="color:black">URL:https://github.com/Krischengwill/ReduxTertis/tree/master</a>
-          <iframe src="https://polar-caverns-34392.herokuapp.com/" class="iframe" id="iframepage" alt="" frameborder:0 scrolling="auto"  style="border:none" onload="changeFrameHeight()"></iframe>
+          <p>4.JavaSimpleApi Enable database CRUD</p>
+          <a href ="https://github.com/Krischengwill/JavaSimpleApi" target="_blank" style="color:black">URL:https://github.com/Krischengwill/JavaSimpleApi</a>
+          <p>Description: Simple JavaApi use Springboot framework which allow user to create/get a user account and put/delete their personal information. </p>
+          <img src="images/portfolio/port1.jpg" class="img-responsive" alt="">
         </div>
 
       </div>
@@ -690,19 +692,21 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="window.location.reload()"><span aria-hidden="true">&times;</span></button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Mojo Web App redesign concept</h4>
         </div>
         <div class="modal-body">
 
-          <p>5.Snake Game</p>
-          <a href ="https://krischengwill.github.io/Game/" target="_blank" style="color:black">URL:https://krischengwill.github.io/Game/</a>
-          <iframe src="https://krischengwill.github.io/Game/" class="iframe" id="iframepage" alt="" frameborder:0 scrolling="auto"  style="border:none" onload="changeFrameHeight()"></iframe>
+          <p>5.LiveChat Room</p>
+          <a href ="https://github.com/Krischengwill/Chat-Room" target="_blank" style="color:black">URL:https://github.com/Krischengwill/Chat-Room</a>
+          <p>Description: Use WebSocket and Express Framework.Enable Multiple users chat in selected chat-room and send their real location while chatting with others. </p>
+          <img src="images/portfolio/port2.jpg" class="img-responsive" alt="">
         </div>
 
       </div>
     </div>
   </div>
+
 
   <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
